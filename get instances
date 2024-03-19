@@ -1,0 +1,12 @@
+--made by .xyveria in disc
+--you can change the location idk
+
+local sg = game.StarterGui:GetDescendants()
+local ws = workspace:GetDescendants()
+
+for index, descendant in sg do
+	print("StarterGUI: "..descendant.Name)
+end
+for index, descendant in ws do
+	print("Workspace: "..descendant.Name)
+end
